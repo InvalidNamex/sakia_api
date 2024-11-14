@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+asgiref = "*"
+django-debug-toolbar = "*"
+django-smart-selects = "*"
+djangorestframework = "*"
+pillow = "*"
+pytz = "*"
+sqlparse = "*"
+tzdata = "*"
+pyodbc = "*"
+python-dotenv = "*"
+django-cors-headers = "*"
+mssql-django = "*"
+drf-yasg = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
